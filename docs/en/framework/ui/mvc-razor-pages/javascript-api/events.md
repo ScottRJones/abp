@@ -82,7 +82,7 @@ abp.event.trigger('basketUpdated', {
 
 ### Multiple Arguments
 
-If you want to pass multiple arguments, you can pass like `abp.event.on('basketUpdated', arg0, arg1, agr2)`. Then you can add the same argument list to the callback function on the subscriber side.
+If you want to pass multiple arguments, you can pass like `abp.trigger.on('basketUpdated', arg0, arg1, agr2)`. Then you can add the same argument list to the callback function on the subscriber side.
 
 > **Tip:** Alternatively, you can send a single object that has a separate field for each argument. This makes easier to extend/change the event arguments in the future without breaking the subscribers.
 
